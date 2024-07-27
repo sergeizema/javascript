@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,300&display=swap');
+
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(196,202,193,1) 0%, rgba(148,233,182,0) 100%);
+}
+
+.login {
+    width: 23vw;
+    height: 33vh;
+    margin-top: 23vh;
+    margin-left: 22vw;
+    border-radius: 5%;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    padding-top: 19px;
+    font-family: sans-serif;
+}
+
+input {
+    width: 80%;
+    margin-left: 7.5%;
+    font-size: 19px;
+    padding: 7px 7px;
+    margin-top: 7px;
+}
+
+.btn-vis input {
+    width: 84%; 
+    font-size: 18px;
+}
+
+.panel {
+    position: absolute;
+    width: 23vw;
+    height: 33vh;
+    margin-top: -33vh;
+    margin-left: 60vw;
+    border-radius: 5%;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: block;
+}
+
+h3 {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.div1 {
+    display: flex;
+}
+
+.div2 {
+    display: flex;
+}
+
+#names {
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+#passw {
+    margin-left: 60px;
+    margin-top: 10px;
+}
